@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+}
+body{
+    background-color:rgba(0, 0, 0, 0.952);
+}
+
+.title{
+font-size: 28px;
+font-weight: bold;
+text-align: center;
+margin-top: 5%;
+margin-bottom: 5%;
+color: rgba(255, 255, 255, 0.842);
+}
+
+
+.start_page{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 200px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.842);
+    font-weight: 600;
+}
+
+input[type = "text"]{
+    width: 212px;
+    background-color: rgba(255, 255, 255, 0.767);
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.start_button {
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(63, 26, 23);
+}
+
+.counter_container{
+    
+    height: 150px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 66px;
+    font-weight: 550;
+}
+
+.counter_container .boxes{
+    width: 90px;
+    background-color: rgba(255, 255, 255, 0.966);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.counter_container p{
+    width:20px;
+    color: rgba(255, 255, 255, 0.966);
+    text-align: center;
+    
+}
+
+.text_time{
+    display: flex;
+    justify-content:space-around;
+    width: 70%;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.966);
+}
+
+
+
+
+.box_container p{
+    width: 70px;
+    font-size: 18px;
+    margin: auto;
+    text-align: center;
+}
