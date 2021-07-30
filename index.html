@@ -13,39 +13,43 @@
 
     <div class = "start_page">
         
-        <p class = "enter">The comming date</p>
-        <input type="datetime-local" min="2021-08-01T08:30" class= "inputDate">
-        <br>
+        
         <p>Date Title</p>
-        <input type="text" class="titleText">
+        <input type="text" id="titleText">
         <br>
-        <button class="start_button" onclick="countdown()">Countdown</button>
+        <p class = "enter">The comming date</p>
+        <input type="datetime-local"  class= "inputDate">
+        <br>
+        <button id="start_button" >Countdown</button>
+        <br>
 
     </div>
 
-    <div class="counter_container">
+    <div id="container">
 
-        <div class = "box_container">
-            <div class="days boxes" >00</div>
-            <p>Days</p>
-        </div>
-        <p>:</p>
-        <div class = "box_container">
-            <div class="hours boxes" >00</div>
-            <p>Hours</p>
-        </div>
-        <p>:</p>
-        <div class = "box_container">
-            <div class="minutes boxes" >00</div>
-            <p>Minutes</p>
-        </div>
-        
-        <p>:</p>
-        <div class = "box_container">
-            <div class="seconds boxes" >00</div>
-            <p>Seconds</p>
-        </div>
-        
+        <!-- <h2 id="eventName">Event Name</h2>
+        <div class="counter_container">
+            <div class = "box_container">
+                <div class="days boxes" >00</div>
+                <p>Days</p>
+            </div>
+            <p>:</p>
+            <div class = "box_container">
+                <div class="hours boxes" >00</div>
+                <p>Hours</p>
+            </div>
+            <p>:</p>
+            <div class = "box_container">
+                <div class="minutes boxes" >00</div>
+                <p>Minutes</p>
+            </div>
+            
+            <p>:</p>
+            <div class = "box_container">
+                <div class="seconds boxes" >00</div>
+                <p>Seconds</p>
+            </div>
+        </div> -->
     </div>
     
     <script src="script.js"></script>
